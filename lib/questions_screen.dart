@@ -23,6 +23,49 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
               end: Alignment.bottomRight,
             ),
           ),
+          child: Center(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const Text(
+                  'Question 1',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 20,
+                    fontWeight: FontWeight.w300,
+                    fontFamily: 'arial',
+                  ),
+                ),
+                const SizedBox(height: 20),
+                OutlinedButton.icon(
+                  onPressed: () {},
+                  style: OutlinedButton.styleFrom(
+                    foregroundColor: const Color.fromARGB(255, 255, 255, 255),
+                    backgroundColor: const Color.fromARGB(88, 114, 0, 63),
+                    padding: const EdgeInsets.symmetric(
+                      vertical: 10,
+                      horizontal: 20,
+                    ),
+                    shape: const BeveledRectangleBorder(),
+                  ),
+                  icon: const Icon(
+                    Icons.arrow_right_alt,
+                    color: Colors.white,
+                    size: 20,
+                  ),
+                  label: const Text(
+                    'Next Question',
+                    style: TextStyle(
+                      color: Colors.white,
+                      fontSize: 15,
+                      fontWeight: FontWeight.normal,
+                      fontFamily: 'Roboto',
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
         ),
       ),
     );
