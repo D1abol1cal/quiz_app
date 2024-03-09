@@ -14,7 +14,7 @@ class AnswerButton extends StatelessWidget {
       child: OutlinedButton(
         onPressed: onTap,
         style: OutlinedButton.styleFrom(
-            padding: const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+            padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 5),
             backgroundColor: const Color.fromARGB(88, 114, 0, 63),
             foregroundColor: Colors.white,
             shape: const BeveledRectangleBorder()),
