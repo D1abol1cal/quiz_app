@@ -21,8 +21,6 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
     setState(() {
       if (currentQuestionIndex < questions.length - 1) {
         currentQuestionIndex++;
-      } else if (currentQuestionIndex == questions.length - 1) {
-        currentQuestionIndex = 0;
       }
     });
   }
