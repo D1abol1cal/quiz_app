@@ -10,6 +10,13 @@ Flutter Quiz App is a simple yet beautiful Flutter application that allows users
 - **Beginner-Friendly:** Ideal for beginners learning Flutter, with questions tailored to cover fundamental concepts.
 
 ## Screenshots
+![alt text](<App Screenshots/WhatsApp Image 2024-03-17 at 6.51.52 AM.jpeg>)
+
+![alt text](<App Screenshots/WhatsApp Image 2024-03-17 at 6.51.51 AM (1).jpeg>)
+
+![alt text](<App Screenshots/WhatsApp Image 2024-03-17 at 6.51.51 AM.jpeg>)
+
+
 
 
 
