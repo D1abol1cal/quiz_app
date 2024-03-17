@@ -26,4 +26,12 @@ Flutter Quiz App is a simple yet beautiful Flutter application that allows users
    ```bash
    git clone https://github.com/your-username/flutter-quiz-app.git
 
+2. Navigate to the directory
+   ```bash
+   cd flutter-quiz-app
+
+3. Run the App
+   ```bash
+   flutter run
+
 
